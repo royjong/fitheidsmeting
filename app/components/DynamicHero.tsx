@@ -4,6 +4,16 @@ import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/server";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { ToolTips } from "./ToolTip";
 
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { ArrowDown } from "lucide-react";
+
 
 interface DynamicHeroProps {
   title: string;
@@ -47,15 +57,39 @@ export default async function DynamicHero({
             <br />
             {user ? (
               <div>
-                <Button variant="destructive">
-                  <Link href={link}>Start nu de {typeCheck} check!</Link>
+                      <DropdownMenu>
+        <DropdownMenuTrigger>Open</DropdownMenuTrigger>
+        <DropdownMenuContent>
+          <DropdownMenuLabel>My Account</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>Profile</DropdownMenuItem>
+          <DropdownMenuItem>Billing</DropdownMenuItem>
+          <DropdownMenuItem>Team</DropdownMenuItem>
+          <DropdownMenuItem>Subscription</DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+
+                <Button variant="outline">
+                    
                 </Button>
               </div>
             ) : (
               <div>
-                <RegisterLink postLoginRedirectURL="/beroepskeuze/start">
-                  <Button>Start nu de {typeCheck} check!</Button>
-                </RegisterLink>
+                   <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button variant="custom" className="flex gap-3 mx-auto">Kies een gezondheidscheck
+          <ArrowDown  className="w-4 h-4"/> </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent>
+          <DropdownMenuLabel>Beschikbare testen</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>Autisme Test</DropdownMenuItem>
+          <DropdownMenuItem>IQ Test</DropdownMenuItem>
+          <DropdownMenuItem>ADHD test</DropdownMenuItem>
+          <DropdownMenuItem>Depressie Test</DropdownMenuItem>
+          <DropdownMenuItem>Trauma Test</DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
               </div>
             )}
           </div>
