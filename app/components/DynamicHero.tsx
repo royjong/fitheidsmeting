@@ -35,7 +35,7 @@ export default async function DynamicHero({
       >
         <div className="container">
           <div className="max-w-2xl text-center mx-auto space-y-4 ">
-            <h1 className="scroll-m-20 text-5xl text-[#0e2a57] font-light tracking-tight lg:text-5xl ">
+            <h1 className="scroll-m-20 text-5xl text-[#0e2a57] font-bold tracking-tight lg:text-5xl ">
              
               {title}🧠
             </h1>
@@ -47,7 +47,7 @@ export default async function DynamicHero({
             <br />
             {user ? (
               <div>
-                <Button>
+                <Button variant="destructive">
                   <Link href={link}>Start nu de {typeCheck} check!</Link>
                 </Button>
               </div>
