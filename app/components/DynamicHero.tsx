@@ -3,6 +3,7 @@ import Link from "next/link";
 import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/server";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { ToolTips } from "./ToolTip";
+import { Badge } from "@/components/ui/badge"
 
 import {
   DropdownMenu,
@@ -12,7 +13,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Star } from "lucide-react";
 
 
 interface DynamicHeroProps {
@@ -44,7 +45,19 @@ export default async function DynamicHero({
         }}
       >
         <div className="container">
+          
           <div className="max-w-2xl text-center mx-auto space-y-4 ">
+          <Badge variant="outline" className="p-2 flex flex-col">
+            Onze software wordt gebruikt door gerenoormeerde artsen!
+             <div className="flex">
+             <Star className=" fill-[#ffcf40]" />
+                <Star className=" fill-[#ffcf40]" />
+                <Star className=" fill-[#ffcf40]" />
+                <Star className=" fill-[#ffcf40]" />
+                <Star className=" fill-[#ffcf40]" />
+             </div>
+           </Badge>
+          
             <h1 className="scroll-m-20 text-2xl md:text-4xl text-[#0e2a57] font-bold tracking-tight lg:text-5xl ">
              
               {title}🧠
