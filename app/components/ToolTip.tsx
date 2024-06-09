@@ -4,45 +4,45 @@ import { AnimatedTooltip } from "@/components/tooltip";
 const people = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
+    name: "Diedrik kerkman",
+    designation: "Psycholoog/Hoogleraar UMCG",
     image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+      "https://www.northjersey.com/gcdn/presto/2023/04/18/PNJM/48972df7-cc1b-49d3-9c91-908f78534164-041823_MTozzolitherapy_05.JPG",
   },
   {
     id: 2,
-    name: "Robert Johnson",
-    designation: "Product Manager",
+    name: "Andries van hulsten",
+    designation: "Psycholoog",
     image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://pbs.twimg.com/profile_images/1315389898862592000/idqB-BMx_200x200.jpg",
   },
   {
     id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
+    name: "Janisha Duitsen",
+    designation: "Neurowetenschapper",
     image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgPGG0HcT-c7fv8l-WrNotYNPO8IA9aJhmjFFA5b9d3pWxdsL3VcxJjI-IU6j0r0HGLAU&usqp=CAU",
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "UX Designer",
+    name: "Marlinda jonkers",
+    designation: "Pschiatrist",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "https://photos.psychologytoday.com/eb3a2644-0c6d-4248-b23c-02d3401da256/1/320x400.jpeg",
   },
   {
     id: 5,
-    name: "Tyler Durden",
-    designation: "Soap Developer",
+    name: "Janiek Haman",
+    designation: "Neuro wetenschapper",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+      "https://photos.psychologytoday.com/98da0dfb-b010-436d-aefd-0cb9e71a2e68/2/320x400.jpeg",
   },
   {
     id: 6,
-    name: "Dora",
-    designation: "The Explorer",
+    name: "Angela Lieverdink",
+    designation: "Psycholoog/Psychiater",
     image:
-      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+      "https://photos.psychologytoday.com/e27e6bf1-ba46-46dd-9157-4b8a3b87de1c/1/320x400.jpeg",
   },
 ];
 

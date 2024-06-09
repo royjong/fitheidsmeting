@@ -48,7 +48,7 @@ export default async function DynamicHero({
           
           <div className="max-w-2xl text-center mx-auto space-y-4 ">
           <Badge variant="outline" className="p-2 ">
-            Al 150.000 scans uitgevoerd - Start de Quiz!
+             Gemaakt door 4 gerenoormeerde psychologen!
              
            </Badge>
           
