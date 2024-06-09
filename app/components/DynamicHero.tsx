@@ -45,7 +45,7 @@ export default async function DynamicHero({
       >
         <div className="container">
           <div className="max-w-2xl text-center mx-auto space-y-4 ">
-            <h1 className="scroll-m-20 text-5xl text-[#0e2a57] font-bold tracking-tight lg:text-5xl ">
+            <h1 className="scroll-m-20 text-2xl md:text-4xl text-[#0e2a57] font-bold tracking-tight lg:text-5xl ">
              
               {title}🧠
             </h1>

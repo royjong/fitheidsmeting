@@ -3,10 +3,11 @@ import {
   BookOpenIcon,
   ChevronRightIcon,
   MessagesSquareIcon,
+  LogIn, 
+  TestTubeDiagonal,
+  BookOpenCheck, 
   ThumbsUpIcon,
 } from "lucide-react";
-
-
 
 export default function IconSection() {
   return (
@@ -17,7 +18,7 @@ export default function IconSection() {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="lg:w-3/4">
             <h2 className="scroll-m-20 border-b pb-2 text-2xl  font-light  tracking-tight transition-colors first:mt-0">
-              Binnen 1 minuut een diagnose voor je  mentale problemen in kaart hebben? 
+              Binnen 1 minuut een diagnose voor je mentale problemen in kaart hebben? 
             </h2>
             <p className="mt-3 text-muted-foreground">
               Doe nu de zelfscan, en krijg binnen een minuut het antwoord.
@@ -32,16 +33,14 @@ export default function IconSection() {
             <div className="flex">
               {/* Icon */}
               <span className="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border bg-[#e8efff] text-black">
-                <BookOpenIcon className="flex-shrink-0 w-5 h-5" />
+                <LogIn className="flex-shrink-0 w-5 h-5" />
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Stap 1. Jij maakt snel een account.
+                  Stap 1. Maak snel een account aan.
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  Our documentation and extensive Client libraries contain
-                  everything a business needs to build a custom integration in a
-                  fraction of the time.
+                  Registreer je eenvoudig en snel om toegang te krijgen tot onze zelfscan.
                 </p>
               </div>
             </div>
@@ -50,15 +49,14 @@ export default function IconSection() {
             <div className="flex">
               {/* Icon */}
               <span className="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border  bg-[#e8efff] text-black ">
-                <MessagesSquareIcon className="flex-shrink-0 w-5 h-5" />
+                <TestTubeDiagonal className="flex-shrink-0 w-5 h-5" />
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-black sm:text-lg font-semibold">
-                  Stap 2. Je doet de gewensde test.
+                  Stap 2. Vul de gewenste test in.
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  We actively contribute to open-source projects—giving back to
-                  the community through development, patches, and sponsorships.
+                  Beantwoord een paar vragen om ons inzicht te geven in je mentale gesteldheid.
                 </p>
               </div>
             </div>
@@ -67,15 +65,14 @@ export default function IconSection() {
             <div className="flex">
               {/* Icon */}
               <span className="flex-shrink-0 inline-flex justify-center  bg-[#e8efff]  items-center w-[46px] h-[46px] rounded-full border  text-black">
-                <ThumbsUpIcon className="flex-shrink-0 w-5 h-5" />
+                <BookOpenCheck className="flex-shrink-0 w-5 h-5" />
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                 Stap 3. Binnen 5 minuten uitslag!
+                  Stap 3. Binnen 1 minuut uitslag!
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  From boarding passes to movie tickets, there&apos;s pretty
-                  much nothing you can&apos;t do.
+                  Onze AI en ons team analyseren je antwoorden en geven binnen 1 minuut een diagnose.
                 </p>
               </div>
             </div>
