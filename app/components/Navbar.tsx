@@ -17,7 +17,7 @@ const Navbar = async () => {
             <div className="container mx-auto flex items-center justify-between p-5">
                 <div className="flex items-center">
                     <Link href="/">
-                          <Image src="/logo.png" width={150} height={100} alt="Logo" />
+                          <Image src="/logo2.png" width={150} height={100} alt="Logo" />
                     </Link>
                 </div>
                
