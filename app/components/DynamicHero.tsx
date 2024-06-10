@@ -73,17 +73,20 @@ export default async function DynamicHero({
         <DropdownMenuContent>
           <DropdownMenuLabel>Beschikbare testen</DropdownMenuLabel>
           <DropdownMenuSeparator />
-            <Link href="/beroepskeuze">
+          <Link href="/beroepskeuze">
                 <DropdownMenuItem>
                 Beroepskeuze test
                 </DropdownMenuItem>
             </Link>
-          <DropdownMenuItem>Autisme Test</DropdownMenuItem>
+            <Link href="/hoogbegaafd">
+                <DropdownMenuItem>
+                 Hoogbegaafd toets
+                </DropdownMenuItem>
+            </Link>
          
         </DropdownMenuContent>
       </DropdownMenu>
               </div>
-      
           </div>
         </div>
       </div>
