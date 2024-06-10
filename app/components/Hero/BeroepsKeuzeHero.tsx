@@ -37,8 +37,8 @@ export default async function BeroepsKeuzeHero() {
              
            </Badge>
           
-            <h1 className="scroll-m-20 text-2xl md:text-4xl text-[#0e2a57] font-bold tracking-tight lg:text-5xl ">
-            Keuzestress? Vind in 5 Minuten Jouw Perfecte Beroep!
+            <h1 className="scroll-m-20 text-2xl md:text-3xl text-[#0e2a57] font-bold tracking-tight lg:text-4xl ">
+            Beroepskeuzestress? Ontvang binnen 5 minuten een beroep dat ECHT bij jou past
             </h1>
             <ToolTips />
 
