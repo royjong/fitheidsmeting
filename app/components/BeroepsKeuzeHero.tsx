@@ -31,7 +31,7 @@ export default async function BeroepsKeuzeHero() {
         <div className="container"> 
           
           <div className="max-w-2xl text-center mx-auto space-y-4 ">
-          <Badge variant="outline" className="p-2 ">
+          <Badge variant="default" className="p-2 ">
              Gemaakt door 4 gerenoormeerde psychologen!
              
            </Badge>
