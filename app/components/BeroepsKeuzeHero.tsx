@@ -12,6 +12,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { ArrowDown, ArrowRightIcon, Star } from "lucide-react";
+import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
 
 
 export default async function BeroepsKeuzeHero() {
@@ -44,10 +45,12 @@ export default async function BeroepsKeuzeHero() {
             <p className="text-muted-foreground">
               Onze geavanceerde software & team aan specialisten staan klaar om jou te voorzien van een snelle diagnose.
             </p>                
-                <Button className="flex mx-auto gap-3">
-                            Start nu de toets
-                            <ArrowRightIcon className="w-4 h-4" /> 
-                </Button>    
+              <RegisterLink>
+                      <Button className="flex mx-auto gap-3 mt-5 bg-[#548ff8] text-white">
+                                  Start nu de toets
+                                  <ArrowRightIcon className="w-4 h-4" /> 
+                      </Button>    
+                </RegisterLink>
             <br />
           </div>
         </div>
