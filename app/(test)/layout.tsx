@@ -7,7 +7,7 @@ interface Props {
 const Layout = ({children}: Props) => { 
     
     return (  
-        <div className="w-[85%] mx-auto mt-5">
+        <div className="w-full flex flex-col h-screen">
             {children}
         </div>
     );

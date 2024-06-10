@@ -14,6 +14,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { ArrowDown, Star } from "lucide-react";
+import { Dropdown } from "react-day-picker";
 
 
 interface DynamicHeroProps {
@@ -62,25 +63,7 @@ export default async function DynamicHero({
               Onze geavanceerde software & team aan specialisten staan klaar om jou te voorzien van een snelle diagnose.
             </p>
             <br />
-            {user ? (
-              <div>
-                      <DropdownMenu>
-        <DropdownMenuTrigger>Open</DropdownMenuTrigger>
-        <DropdownMenuContent>
-          <DropdownMenuLabel>My Account</DropdownMenuLabel>
-          <DropdownMenuSeparator />
-          <DropdownMenuItem>Profile</DropdownMenuItem>
-          <DropdownMenuItem>Billing</DropdownMenuItem>
-          <DropdownMenuItem>Team</DropdownMenuItem>
-          <DropdownMenuItem>Subscription</DropdownMenuItem>
-        </DropdownMenuContent>
-      </DropdownMenu>
-
-                <Button variant="outline">
-                    
-                </Button>
-              </div>
-            ) : (
+           
               <div>
                    <DropdownMenu>
         <DropdownMenuTrigger asChild>
@@ -92,13 +75,15 @@ export default async function DynamicHero({
           <DropdownMenuSeparator />
           <DropdownMenuItem>Autisme Test</DropdownMenuItem>
           <DropdownMenuItem>IQ Test</DropdownMenuItem>
-          <DropdownMenuItem>ADHD test</DropdownMenuItem>
-          <DropdownMenuItem>Depressie Test</DropdownMenuItem>
-          <DropdownMenuItem>Trauma Test</DropdownMenuItem>
+          <DropdownMenuItem>
+             <Link href="/beroepskeuze">
+                 Beroepskeuze test
+              </Link>
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
               </div>
-            )}
+      
           </div>
         </div>
       </div>

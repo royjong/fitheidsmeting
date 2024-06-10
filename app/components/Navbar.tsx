@@ -30,7 +30,7 @@ const Navbar = async () => {
                         ): ( 
                             <div className='md:flex md:items-center md:space-x-4 hidden'>
                                     <Link href="/" className="block py-2 px-4 rounded hover:bg-gray-200">Autisme check</Link>
-                            <Link href="/" className="block py-2 px-4 rounded hover:bg-gray-200">Beroeps Check</Link>
+                            <Link href="/beroepskeuze" className="block py-2 px-4 rounded hover:bg-gray-200">Beroeps Check</Link>
                             <Link href="/" className="block py-2 px-4 rounded hover:bg-gray-200">ADHD Check</Link>
                             </div>
                         )}
