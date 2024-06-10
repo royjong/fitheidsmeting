@@ -83,7 +83,9 @@ const Hoogbegaafd: React.FC = () => {
 
   return (
     <div className="container mx-auto py-8 px-4">
-    <h1 className="text-4xl font-bold mb-8 text-center">Stap 1. Vul de toets in </h1>
+     <h1 className="scroll-m-20 text-2xl md:text-4xl text-[#0e2a57] font-bold tracking-tight lg:text-5xl ">
+            Stap 1. Vul de toets in
+      </h1>
     <Progress value={(step / vragen.length) * 100} />
     <form className="max-w-lg mx-auto mt-8" onSubmit={handleSubmit}>
       {vragen.map((vraag, index) => (

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/server";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
-import { ToolTips } from "./ToolTip";
+import { ToolTips } from "../ToolTip";
 import { Badge } from "@/components/ui/badge"
 
 import {

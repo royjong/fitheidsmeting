@@ -21,7 +21,7 @@ const Navbar = async () => {
                         <>
                             <Link href="/" className="hidden md:block py-2 px-4 rounded hover:bg-gray-200">Home</Link>
                             <Link href="/autisme-check" className="hidden md:block py-2 px-4 rounded hover:bg-gray-200">Autisme Check</Link>
-                            <Link href="/beroepskeuze" className="hidden md:block py-2 px-4 rounded hover:bg-gray-200">Beroeps Check</Link>
+                            <Link href="/beroepskeuze" className="hidden md:block py-2 px-4 rounded hover:bg-gray-200">Hoogbegaafdheidstest</Link>
                         </>
                     )}
                     {user ? (

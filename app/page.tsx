@@ -1,7 +1,7 @@
 
-import DynamicHero from "./components/DynamicHero"
+import DynamicHero from "./components/Hero/DynamicHero"
 import Footer from "./components/Footer"
-import IconSection from "./components/IconSection"
+import IconSection from "./components/icon-sections/IconSection"
 import { Testimonials } from "./components/Testimonials"
 
 export default function Home() { 

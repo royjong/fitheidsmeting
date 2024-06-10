@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ToolTips } from "./ToolTip";
+import { ToolTips } from "../ToolTip";
 import { Badge } from "@/components/ui/badge"
 
 import {
@@ -15,7 +15,7 @@ import { ArrowDown, ArrowRightIcon, Star } from "lucide-react";
 import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
 
 
-export default async function HoogbegaafsHero() {
+export default async function BeroepsKeuzeHero() {
 
   return (
     <>
@@ -33,21 +33,21 @@ export default async function HoogbegaafsHero() {
           
           <div className="max-w-2xl text-center mx-auto space-y-4 ">
           <Badge variant="default" className="p-2 ">
-             De beste test in Nederland - 97% nauwkeurig!
+             Gemaakt door 4 gerenoormeerde psychologen!
              
            </Badge>
           
             <h1 className="scroll-m-20 text-2xl md:text-4xl text-[#0e2a57] font-bold tracking-tight lg:text-5xl ">
-               Ontdek of je hoogbegaafd bent met de meest betrouwbare test van Nederlandse topspecialisten
+            Keuzestress? Vind in 5 Minuten Jouw Perfecte Beroep!
             </h1>
             <ToolTips />
 
             <p className="text-muted-foreground">
-              Onze geavanceerde software en team van experts staan klaar om je snel een diagnose te geven.
+              Onze geavanceerde software & team aan specialisten staan klaar om jou te voorzien van een snelle diagnose.
             </p>                
               <RegisterLink>
                       <Button className="flex mx-auto gap-3 mt-5 bg-[#548ff8] text-white">
-                                  Start nu de hoogbegaafdheidstest
+                                  Start nu de toets
                                   <ArrowRightIcon className="w-4 h-4" /> 
                       </Button>    
                 </RegisterLink>

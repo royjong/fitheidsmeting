@@ -17,8 +17,7 @@ const Footer = () => {
             <h2 className="text-2xl font-medium text-gray-900">Nu starten!</h2>
 
             <p className="mt-4 text-gray-500">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
-              molestias.
+              Start nu met een van onze toetsen om je mentalegestelheid te weten.
             </p>
           </div>
         </div>

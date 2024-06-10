@@ -1,6 +1,7 @@
-import BeroepsKeuzeHero from "@/app/components/BeroepsKeuzeHero"
-import DynamicHero from "@/app/components/DynamicHero"
-import IconSectionBeroepsKeuze from "@/app/components/iconSectionBeroepsKeuze"
+import BeroepsKeuzeHero from "@/app/components/Hero/BeroepsKeuzeHero";
+import DynamicHero from "@/app/components/Hero/DynamicHero";
+import Footer from "@/app/components/Footer";
+import IconSectionBeroepsKeuze from "@/app/components/icon-sections/iconSectionBeroepsKeuze"
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server"
 
 
@@ -13,6 +14,7 @@ export default async function Beroepskeuze () {
         <div>
            <BeroepsKeuzeHero /> 
            <IconSectionBeroepsKeuze /> 
+           <Footer /> 
         </div>
     )
 }
