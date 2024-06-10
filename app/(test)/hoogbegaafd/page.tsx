@@ -15,8 +15,8 @@ export default async function Beroepskeuze () {
     return ( 
         <div>
            <HoogbegaafsHero />
-           <TestimonialsIntelligent /> 
            <IconSectionHoogbegaafd /> 
+           <TestimonialsIntelligent /> 
            <Footer /> 
         </div>
     )

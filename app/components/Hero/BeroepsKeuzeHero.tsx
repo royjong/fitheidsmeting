@@ -46,7 +46,7 @@ export default async function BeroepsKeuzeHero() {
               Onze geavanceerde software & team aan specialisten staan klaar om jou te voorzien van een snelle diagnose.
             </p>                
               <RegisterLink>
-                      <Button className="flex mx-auto gap-3 mt-5 bg-[#548ff8] text-white">
+                      <Button className="flex mx-auto gap-3 mt-5 bg-[#5ae1a5] shadow-md border text-[#0e2a57]">
                                   Start nu de toets
                                   <ArrowRightIcon className="w-4 h-4" /> 
                       </Button>    

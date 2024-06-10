@@ -37,13 +37,13 @@ export default async function HoogbegaafsHero() {
           </p>
           {user ? (
             <Button className="flex mx-auto gap-3 mt-5 bg-[#548ff8] text-white">
-              Ja, nu de toets starten
+              Ja, n 
               <ArrowRightIcon className="w-4 h-4" />
             </Button>
           ) : (
-            <RegisterLink postLoginRedirectURL="http://127.0.0.1:3000/toets">
+            <RegisterLink>
               <Button className="flex mx-auto gap-3 mt-5 bg-[#548ff8] text-white">
-                Ja nu de toets starten
+                Start nu de hoogbegaafdheidstest
                 <ArrowRightIcon className="w-4 h-4" />
               </Button>
             </RegisterLink>

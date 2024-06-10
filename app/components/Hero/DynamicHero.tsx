@@ -67,7 +67,7 @@ export default async function DynamicHero({
               <div>
                    <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant="custom" className="flex gap-3 mx-auto">Kies een gezondheidscheck
+          <Button variant="custom" className="flex gap-3 mx-auto bg-[#4499f2]">Kies een gezondheidscheck
           <ArrowDown  className="w-4 h-4"/> </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent>
